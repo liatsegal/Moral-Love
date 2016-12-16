@@ -1,0 +1,10 @@
+simulation_mode = "theoretical"
+number_of_rounds_at_theoretical_simulation = 1000
+number_of_steps = 1000
+
+n_agents_per_type = (100,100,100,100,100,100)
+moral_type = ("kant","util","ego","altr","rnd","psyc")
+threshold_make_break = (0.5,0.5,0.8,0.8,0.5,0.5)
+moral_utility_factor = (1.5,1.5,0.3,0.7,0.5,-0.5)
+moral_title = ("Kantian","Utilitarian","Egoist","Altruist","CoinFlipper","Psychopath")
+
